@@ -1,8 +1,12 @@
 # django-vendors
 
-**Purpose**: Development of a multi-featured marketplace website.
+## Development
 
-**About**: A tutorial of Python-based Django website for vendors marketplace.
+**Purpose**: Development of a multi-featured real estate marketplace website.
+
+**Status**: A tutorial of Python-based Django website.
+
+## Operations
 
 **Dependency**: Anaconda3 for Windows
 
@@ -35,4 +39,6 @@ python manage.py runserver
 conda env remove --name vendors
 ```
 
-**Q&A**: If you have any questions, feel free to add an issue in this repository.
+## Customer Relationship Management
+
+**Queries**: If you have any questions, feel free to add an issue in this repository.
