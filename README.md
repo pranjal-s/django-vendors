@@ -2,13 +2,34 @@
 
 ## Development
 
-**Purpose**: Development of a multi-featured real estate marketplace website.
+**Purpose**: Towards a multi-featured real estate marketplace.
 
-**Status**: A tutorial of Python-based Django website.
+**Outline**:\
+<ins> 1. Helping vendors in pricing their real estate via regression model of housing data. </ins>
 
-## Operations
+![visualizing distribution of feature data in regression modeling](webscreenshots/modeling.png)
 
-**Dependency**: Anaconda3 for Windows
+*Step 1a*. vendor's item data (e.g. collected via an online form)
+| Item | OverallQual (0-10) | GrLivArea (sq.ft.) | SaleType |
+| --- | --- | --- | --- |
+| A | 7 | 1717 | Family |
+| B | 5 | 1500 | Normal |
+| C | 6 | 2500 | AdjLand |
+
+*Step 1b*. pricing obtained via pre-trained model in pricing directory
+| Item | Pricing |
+| --- | --- |
+| A | $219,382 |
+| B | $134,767 |
+| C | $221,137 |
+
+<ins> 2. A tutorial of Python-based Django website. </ins>
+
+![homepage status](webscreenshots/homepage.jpg)
+
+## Testing and Operations
+
+**Dependency**: Anaconda3 for Windows; and those listed in environment.yml
 
 **Usage**:
 
@@ -39,6 +60,6 @@ python manage.py runserver
 conda env remove --name vendors
 ```
 
-## Customer Relationship Management
+## Queries
 
-**Queries**: If you have any questions, feel free to add an issue in this repository.
+If you have any questions, feel free to add an issue in this repository.
