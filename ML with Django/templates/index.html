@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Housing Prices Prediction</title>
+</head>
+<body>
+    <h1>Predict Housing Price</h1>
+    <br>
+    <form action="">
+        <label for="OverallQual">Overall material and finish of the house: </label>
+        <input type="range" min="1" max="10" step="1" name="OverallQual" id="OverallQual" value="5">
+        <br>
+        <label for="">Ground living area square feet: </label>
+        <input type="text" name="GrLivArea" id="GrLivArea" value="1500">
+        <br>
+        Condition of sale:
+        <input type="radio" name="SaleCondition" id="Normal" value="Normal" checked="checked">
+        <label for="Normal">Normal</label>
+        <input type="radio" name="SaleCondition" id="Abnorml" value="Abnorml">
+        <label for="Abnorml">Abnorml</label>
+        <input type="radio" name="SaleCondition" id="Family" value="Family">
+        <label for="Family">Family</label>
+        <br>
+        <br>
+        <button type="submit">Estimate</button>
+        <br>
+        Predicted Price: {{result}}
+
+    </form>
+    
+</body>
+</html>

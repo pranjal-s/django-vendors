@@ -2,12 +2,9 @@
 
 ## Development
 
-**Purpose**: Towards a multi-featured real estate marketplace.
+**Purpose**: Helping vendors in pricing their real estate via regression model of housing data.
 
-**Outline**:\
-<ins> 1. Helping vendors in pricing their real estate via regression model of housing data. </ins>
-
-![visualizing distribution of feature data in regression modeling](webscreenshots/modeling.png)
+**Outline**:
 
 *Step 1a*. vendor's item data (e.g. collected via an online form)
 | Item | OverallQual (0-10) | GrLivArea (sq.ft.) | SaleType |
@@ -23,9 +20,14 @@
 | B | $134,767 |
 | C | $221,137 |
 
-<ins> 2. A tutorial of Python-based Django website. </ins>
+<ins> 2. ML model deployed with Django. </ins>
 
-![homepage status](webscreenshots/homepage.jpg)
+![homepage status](webscreenshots/estimation-form.png)
+
+<ins> 3. Backend logic. </ins>
+
+![homepage status](webscreenshots/overview.png)
+
 
 ## Testing and Operations
 
